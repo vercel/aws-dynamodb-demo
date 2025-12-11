@@ -4,14 +4,14 @@
 
 This demo uses Amazon DynamoDB with Next.js to fetch movies from the database. It is able to securely connect to DynamoDB without using hardcoded access tokens through Vercel's [OIDC Federation](https://vercel.com/docs/security/secure-backend-access/oidc) using Vercel native integration. 
 
-[![This is an alt text.](/public/Vercel-AWS-GitHub-DDB.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo)
+[![This is an alt text.](/public/Vercel-AWS-GitHub-DDB.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo&repository-name=aws-dynamodb-demo)
 
 **Demo:** [(https://aws-vercel-dynamodb-demo.vercel.app/)](https://aws-vercel-dynamodb-demo.vercel.app/)
 
 
 **Getting Started:** 
 * Click the "Deploy" button to clone this repo, create a new Vercel project, setup the AWS integration, and provision a new Amazon DynamoDB:
-* [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo)
+* [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo&repository-name=aws-dynamodb-demo)
 
 * Once the process is complete, you can clone the newly created GitHub repository and start making changes locally.
 
