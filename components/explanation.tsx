@@ -6,7 +6,7 @@ export default function Explanation() {
     <div className="text-gray-800 dark:text-gray-200 text-sm border border-dashed border-gray-300 dark:border-gray-600 p-4 mb-4 font-mono bg-white dark:bg-gray-900">
      <div className="mb-4">
          <Link
-        href="https://vercel.com/new/clone?repository-url=https://github.com/vercel/aws-dynamodb-demo&project-name=aws-dynamodb-demo&repository-name=aws-dynamodb-demo&products=[{%22type%22:%22integration%22,%22integrationSlug%22:%22aws%22,%22productSlug%22:%22aws-dynamodb%22,%22protocol%22:%22storage%22}]"
+        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo&project-name=aws-dynamodb-demo&repository-name=aws-dynamodb-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dynamodb%22%2C%22protocol%22%3A%22storage%22%7D%5D"
         target="_blank"
         rel="noopener noreferrer"
         className="transition-opacity hover:opacity-90"
