@@ -14,41 +14,37 @@ Click the "Deploy" button to clone this repo, create a new Vercel project, setup
 
 Once the process is complete, you can clone the newly created GitHub repository and start making changes locally.
 
-## Setup
+## Requirements
 
-1. Add required environment variables to your vercel project
+- Installed Amazon DynamoDB. You can do that via [Vercel Marketplace](https://vercel.com/marketplace/aws)
 
-```
-AWS_ROLE_ARN=arn:aws:iam::YOUR_ACCOUNT:role
-AWS_REGION=us-east-1
-DYNAMODB_TABLE_NAME=your-dynamodb-table-name
-```
+## Local Setup
 
-2. Pull vercel environment variables locally
+1. Pull vercel environment variables locally
 
-`bash
+```bash
 vercel env pull
-`
+```
 
-3. Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-4. Run migrations to create tables:
+3. Run migrations to create tables:
 
 ```bash
 npm run db:migrate
 ```
 
-5. Seed the database with movie data:
+4. Seed the database with movie data:
 
 ```bash
 npm run db:seed
 ```
 
-6. Start the development server:
+5. Start the development server:
 
 ```bash
 npm run dev
