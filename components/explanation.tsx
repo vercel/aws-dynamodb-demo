@@ -1,13 +1,30 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Explanation() {
   return (
     <div className="text-gray-800 dark:text-gray-200 text-sm border border-dashed border-gray-300 dark:border-gray-600 p-4 mb-4 font-mono bg-white dark:bg-gray-900">
+     <div className="mb-4">
+         <Link
+        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo&project-name=aws-dynamodb-demo&repository-name=aws-dynamodb-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dynamodb%22%2C%22protocol%22%3A%22storage%22%7D%5D"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="transition-opacity hover:opacity-90"
+      >
+        <Image
+          src="/Vercel-AWS-GitHub-DDB.png"
+          alt="Vercel AWS DynamoDB native integration"
+          width={600}
+          height={400}
+          className="w-full h-auto"
+        />
+     </Link>
+      </div>
       <p className="mb-2">
         This app uses <b className="font-bold">Amazon DynamoDB</b> with
         Next.js and Vercel (
         <Link
-          href="https://github.com/vercel/aws-dynamodb-movies-demo"
+          href="https://github.com/vercel/aws-dynamodb-demo"
           target="_blank"
           rel="noreferrer"
           className="text-gray-900 dark:text-white border-b border-gray-900 dark:border-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
