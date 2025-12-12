@@ -5,7 +5,7 @@ This demo uses Amazon DynamoDB with Next.js to fetch movies from the database. I
 [![This is an alt text.](/app/Vercel-AWS-GitHub-DDB.png)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Faws-dynamodb-demo&project-name=aws-dynamodb-demo&repository-name=aws-dynamodb-demo&products=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22aws%22%2C%22productSlug%22%3A%22aws-dynamodb%22%2C%22protocol%22%3A%22storage%22%7D%5D)
 
 **Demo:**
-QQQQQ
+[View Demo](https://aws-dynamodb-demo.labs.vercel.dev)
 
 **Getting Started:**
 Click the "Deploy" button to clone this repo, create a new Vercel project, setup the AWS integration, and provision a new DynamoDB table:
